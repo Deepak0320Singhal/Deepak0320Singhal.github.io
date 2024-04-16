@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.customBackground {  
+  background-color: #0e0e16;
+  min-height: 80px;
+}
+.homeBackground {
+  background-image: url('./Background-img.webp'); 
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: calc(100vh - 80px); 
+}
+.homeTitle{
+  padding-top: 150px;
+  padding-left: 220px;
+  color: aliceblue;
+  align-items: center;
+  font-size: 40px;
+}
+
+
+
+
+
+@media screen and (max-width:410px) {
+  .homeTitle{
+    padding-left: 50px;
+  }
+}
+
+@media screen and (min-width: 411px) and (max-width:580px) {
+  .homeTitle{
+    padding-left: 120px; 
+  }
+}
