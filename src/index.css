@@ -10,7 +10,7 @@
   min-height: 80px;
 }
 .homeBackground {
-  background-image: url('./Background-img.webp'); 
+  background-image: url('https://raw.githubusercontent.com/Deepak0320Singhal/Deepak0320Singhal.github.io/main/public/Background-img.webp'); 
   background-size: cover;
   background-position: bottom;
   width: 100%;
