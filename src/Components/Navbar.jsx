@@ -1,9 +1,10 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 
 function Navbar() {
     return (
         <>
-            <nav  className="navbar navbar-expand-lg customBackground">
+            <nav className="navbar navbar-expand-lg customBackground">
                 <div className="container-fluid">
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarUnderlineExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -12,13 +13,13 @@ function Navbar() {
                     <div className="collapse navbar-collapse" id="navbarUnderlineExample">
                         <ul className="navbar-nav navbar-nav-underline">
                             <li className="nav-item">
-                                <a className="nav-link active" href="#">Home</a>
+                                <NavLink className="nav-link" to="/" exact="true" activeclassname="active">Home</NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Team</a>
+                                <NavLink className="nav-link" to="/project" activeclassname="active">Projects</NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Profile</a>
+                                <NavLink className="nav-link" to="/contact" activeclassname="active">Contact Me</NavLink>
                             </li>
                         </ul>
                     </div>

@@ -1,13 +1,18 @@
-import Home from './assets/Components/Home'
-import Navbar from './assets/Components/Navbar'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Home from './Routes/Home'
+import Project from './Routes/Project'
+import Contact from './Routes/Contact'
 
 function App() {
 
   return (
-    <>
-      <Navbar />
-      <Home/>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/project" element={<Project />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 

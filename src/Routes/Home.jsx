@@ -1,5 +1,7 @@
 import React from 'react'
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
+import Navbar from '../Components/Navbar';
+import Skill from '../Components/Skill';
 function Home() {
     const [text] = useTypewriter({
         words: ['Deepak Singhal', 'Web Developer', 'Designer', 'Gamer'],
@@ -9,7 +11,8 @@ function Home() {
     });
     return (
         <>
-            <div className='homeBackground '>
+            <Navbar />
+            <div className='homeBackground'>
                 <div className='homeTitle'>
                     <p>Hello World!</p>
                     <p>I'm, { }{text}{ } <Cursor /> </p>
@@ -17,6 +20,7 @@ function Home() {
                     <button type="button" className="btn btn-outline-discovery"><a href='https://docs.google.com/document/d/18_V250IADsx-kcSnWiwkeSYmFpX_1ceOqvPhbkir3G8/edit?usp=sharing' target='_blank'>Resume</a></button>
                 </div>
             </div>
+            <Skill />
         </>
     )
 }
