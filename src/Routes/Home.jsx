@@ -4,7 +4,7 @@ import Navbar from '../Components/Navbar';
 import Skill from '../Components/Skill';
 function Home() {
     const [text] = useTypewriter({
-        words: ['Deepak Singhal', 'Web Developer', 'Designer', 'Gamer'],
+        words: ['Web Developer', 'Designer', 'Gamer'],
         loop: {},
         typeSpeed: 80,
         deleteSpeed: 50
@@ -14,8 +14,9 @@ function Home() {
             <Navbar />
             <div className='homeBackground'>
                 <div className='homeTitle'>
-                    <p>Hello World!</p>
-                    <p>I'm, { }{text}{ } <Cursor /> </p>
+                    <p className='fs-2'>Hello World!</p>
+                    <p>I'm Deepak Singhal</p>
+                    <p >I'm, <span className='text-custom'>{ }{text}{ }</span> <Cursor /> </p>
                     <p>from India.</p>
                     <button type="button" className="btn btn-outline-discovery"><a href='https://docs.google.com/document/d/18_V250IADsx-kcSnWiwkeSYmFpX_1ceOqvPhbkir3G8/edit?usp=sharing' target='_blank'>Resume</a></button>
                 </div>

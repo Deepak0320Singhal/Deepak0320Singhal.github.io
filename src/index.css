@@ -2,29 +2,34 @@
   padding: 0;
   margin: 0;
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
   font-style: normal;
 }
 .customBackground {  
   background-color: #0e0e16;
-  min-height: 80px;
+  min-height: 100px;
 }
 .homeBackground {
   background-image: url('https://raw.githubusercontent.com/Deepak0320Singhal/Deepak0320Singhal.github.io/main/public/Background-img.webp'); 
   background-size: cover;
   background-position: bottom;
   width: 100%;
-  height: calc(100vh - 80px); 
+  height: 100vh;
+  /* calc(100vh - 80px)  */
 }
 .homeTitle{
+  line-height: 72px;
+  font-weight: bolder;
   padding-top: 150px;
   padding-left: 220px;
   color: aliceblue;
   align-items: center;
-  font-size: 40px;
+  font-size: 48px;
 }
 #project{
   height: 1500px;
+}
+.text-custom {
+  color: #f97316 !important;
 }
 
 
@@ -33,7 +38,15 @@
 
 @media screen and (max-width:410px) {
   .homeTitle{
-    padding-left: 50px;
+  padding:0px 15px;
+  font-weight: bold;
+  padding-top: 150px;
+  /* padding-left: 220px; */
+  color: aliceblue;
+  font-size: 30px;
+  }
+  .homeBackground {
+    margin-top: -20px;
   }
 }
 
