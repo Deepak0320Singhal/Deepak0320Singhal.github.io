@@ -1,8 +1,20 @@
+
 * {
   padding: 0;
   margin: 0;
   font-family: "Poppins", sans-serif;
   font-style: normal;
+  box-sizing: border-box;
+}
+body {
+  position: absolute;
+  top: 0;
+  z-index: -2;
+  height: 100vh;
+  width: 100vw;
+  background-color: #000000;
+  background-image: radial-gradient(#ffffff33 1px, #00091d 1px);
+  background-size: 20px 20px;
 }
 .customBackground {  
   background-color: #0e0e16;
@@ -32,6 +44,74 @@
   color: #f97316 !important;
 }
 
+/* Skill page CSS starts from here */
+.skills{
+  height: 650px;
+  padding:30px 0px;
+  
+}
+#skill{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  
+}
+.card-container {
+  margin: auto;
+  /* display: flex; */
+   /* justify-content: space-between; Adjusts the spacing between cards */
+   /* gap: 20px; Adds a gap between cards */
+}
+.customCard{
+  box-sizing: border-box;
+  height: 500px;
+  margin: 10px; /* Adds spacing between cards */
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  vertical-align: top; /* Aligns the cards to the top */
+  background-color: #212121; 
+}
+.customCard:hover{
+  background-color:#1f1a1a ;
+}
+.customCard h3{
+  padding:20px 0px 30px 20px;
+  color: white;
+}
+.customCard p{
+  color: #fff;
+  padding: 0px 20px;
+  letter-spacing: 2px;
+  text-overflow: ellipsis;
+}
+.svg-box{
+  background-color: rgb(0, 60, 255);
+  height: 110px;
+  width: 110px;
+  border-radius: 80px;
+  display: flex; 
+  margin: 50px 20px 30px 10px;
+}
+.svg-icon{
+  margin:20px auto;
+  height: 80px;
+  width: 80px;;
+  color: white; 
+}
+/* This is the space btw skills card */
+.slick-slide > div{
+  margin:0px 30px;
+  
+}
+.slick-dots{
+  height: 50px;
+}
+
+/* Contact me Page CSS */
+.contact{
+  height: 1000px;
+
+}
 
 
 
@@ -47,6 +127,7 @@
   }
   .homeBackground {
     margin-top: -20px;
+
   }
 }
 

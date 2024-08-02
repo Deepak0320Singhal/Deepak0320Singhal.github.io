@@ -2,9 +2,10 @@ import React from 'react'
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
 import Navbar from '../Components/Navbar';
 import Skill from '../Components/Skill';
+import Form from '../Components/Form';
 function Home() {
     const [text] = useTypewriter({
-        words: ['Web Developer', 'Designer', 'Gamer'],
+        words: ['Web Developer', 'Open Souce Contributor', 'Designer' , 'Gamer' ],
         loop: {},
         typeSpeed: 80,
         deleteSpeed: 50
@@ -22,6 +23,7 @@ function Home() {
                 </div>
             </div>
             <Skill />
+            <Form/>
         </>
     )
 }
