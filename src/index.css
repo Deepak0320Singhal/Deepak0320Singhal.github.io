@@ -16,6 +16,9 @@ body {
   background-image: radial-gradient(#ffffff33 1px, #00091d 1px);
   background-size: 20px 20px;
 }
+.underscore{
+  font-size: 50px;
+}
 .customBackground {  
   background-color: #0e0e16;
   min-height: 100px;
@@ -26,6 +29,7 @@ body {
   background-position: bottom;
   width: 100%;
   height: 100vh;
+  letter-spacing: 3px;
   /* calc(100vh - 80px)  */
 }
 .homeTitle{
@@ -36,6 +40,7 @@ body {
   color: aliceblue;
   align-items: center;
   font-size: 48px;
+  
 }
 #project{
   height: 1500px;
@@ -52,8 +57,8 @@ body {
 }
 #skill{
   color: #fff;
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 35px;
+  font-weight: 700;
   
 }
 .card-container {
@@ -88,33 +93,52 @@ body {
   background-color: rgb(0, 60, 255);
   height: 110px;
   width: 110px;
-  border-radius: 80px;
-  display: flex; 
-  margin: 50px 20px 30px 10px;
+  border-radius: 60px;
+  margin: 50px 20px 30px 30px;
 }
 .svg-icon{
-  margin:20px auto;
-  height: 80px;
-  width: 80px;;
+  margin:50px 20px 20px 25px;
+  padding-top: 22px;
+
+  height: 60px;
+  width: 60px;
   color: white; 
 }
 /* This is the space btw skills card */
 .slick-slide > div{
   margin:0px 30px;
-  
+
 }
-.slick-dots{
+.slick-dots{          
   height: 50px;
 }
 
 /* Contact me Page CSS */
 .contact{
-  height: 1000px;
-
+  padding-top: 80px;
+  height: 800px;
+}
+.myform{
+  width: 75%;
+  margin: 0px auto;
+}
+.myform .child{
+  background: radial-gradient(#ffffff33 1px, #00091d 1px);
+  margin: 20px;
+  border: 1px solid #fff;
+  height: 75px;
+  color: #fff;
 }
 
-
-
+.myform button{
+  margin-top: 30px;
+  border-radius: 20px;
+  margin-left: 21px;
+  width: 150px;
+  cursor: pointer;
+  height: 50px;
+  font-size: 20px;
+}
 
 @media screen and (max-width:410px) {
   .homeTitle{
@@ -127,7 +151,7 @@ body {
   }
   .homeBackground {
     margin-top: -20px;
-
+    letter-spacing: 1px;
   }
 }
 

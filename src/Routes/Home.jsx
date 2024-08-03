@@ -5,10 +5,10 @@ import Skill from '../Components/Skill';
 import Form from '../Components/Form';
 function Home() {
     const [text] = useTypewriter({
-        words: ['Web Developer', 'Open Souce Contributor', 'Designer' , 'Gamer' ],
+        words: ['Web Developer', 'Open Souce Contributor',    'Designer' , 'Gamer' ],
         loop: {},
-        typeSpeed: 80,
-        deleteSpeed: 50
+        typeSpeed: 100,
+        deleteSpeed: 80
     });
     return (
         <>
