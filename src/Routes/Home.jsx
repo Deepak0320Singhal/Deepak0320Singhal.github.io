@@ -3,6 +3,7 @@ import { Cursor, useTypewriter } from 'react-simple-typewriter'
 import Navbar from '../Components/Navbar';
 import Skill from '../Components/Skill';
 import Form from '../Components/Form';
+import Footer from '../Components/Footer';
 function Home() {
     const [text] = useTypewriter({
         words: ['Web Developer', 'Open Souce Contributor',    'Designer' , 'Gamer' ],
@@ -24,6 +25,7 @@ function Home() {
             </div>
             <Skill />
             <Form/>
+            <Footer/>
         </>
     )
 }

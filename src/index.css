@@ -15,6 +15,8 @@ body {
   background-color: #000000;
   background-image: radial-gradient(#ffffff33 1px, #00091d 1px);
   background-size: 20px 20px;
+  overflow-x: hidden;
+
 }
 .underscore{
   font-size: 50px;
@@ -119,7 +121,7 @@ body {
   height: 800px;
 }
 .myform{
-  width: 75%;
+  width: 80%;
   margin: 0px auto;
 }
 .myform .child{
@@ -139,7 +141,30 @@ body {
   height: 50px;
   font-size: 20px;
 }
+/* This is the css for Footer */
+.footer{
+  height: 100px;
+  border-top: 1px solid #fff;
 
+}
+.name {
+  height: 100%;
+  margin: 18px;
+}
+
+  .name img{
+      display: inline;
+      height: 50px;
+      width: 40px;
+  } 
+  .name p {
+    display: inline;
+    padding-left: 19px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
 @media screen and (max-width:410px) {
   .homeTitle{
   padding:0px 15px;
@@ -152,6 +177,24 @@ body {
   .homeBackground {
     margin-top: -20px;
     letter-spacing: 1px;
+  }
+  /* Footer */
+  .footer{
+    height: 200px;
+  }
+  .name {
+    height: 100%;
+    font-size: 14px;
+    margin: 27px;
+    margin-left: 12%;
+  }
+  .name p{
+    display: inline;
+    padding-left: 14px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
   }
 }
 
