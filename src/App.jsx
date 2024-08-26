@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import React, { useEffect } from 'react';
 import Home from './Routes/Home'
-import Project from './Routes/Project'
+// import Project from './Routes/Project'
 import Contact from './Routes/Contact'
 
 function App() {
@@ -28,5 +28,4 @@ function App() {
     </BrowserRouter>
   )
 }
-
 export default App;

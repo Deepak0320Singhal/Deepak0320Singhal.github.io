@@ -20,7 +20,7 @@ function Home() {
                     <p>I'm Deepak Singhal</p>
                     <p >I'm, <span className='text-custom'>{ }{text}{ }</span> <Cursor /> </p>
                     <p>from India.</p>
-                    <button type="button" className="btn btn-outline-discovery"><a href='https://drive.google.com/file/d/12Ut83ejLuO-s8jPnRzq1fFMw6j-vNLRs/view?usp=sharing' target='_blank'>Resume</a></button>
+                    <button type="button" className="btn btn-outline-discovery"><a href='https://drive.google.com/file/d/1uJQfHDk6tDd9NZWn54ocMlPbYYRFIck0/view?usp=sharing' target='_blank'>Resume</a></button>
                 </div>
             </div>
             <Skill />
