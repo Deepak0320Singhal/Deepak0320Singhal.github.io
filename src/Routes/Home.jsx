@@ -6,7 +6,7 @@ import Form from '../Components/Form';
 import Footer from '../Components/Footer';
 function Home() {
     const [text] = useTypewriter({
-        words: ['Web Developer', 'Open Souce Contributor',    'Designer' , 'Gamer' ],
+        words: ['Web Developer', 'Open Source Contributor',    'Designer' , 'Gamer' ],
         loop: {},
         typeSpeed: 100,
         deleteSpeed: 80
